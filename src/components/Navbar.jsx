@@ -122,7 +122,8 @@ function Navbar() {
                 }`}
               ></i>
               <i
-                onClick={() => setMobileNav(!mobileNav)}
+                onClick={() => 
+                  setMobileNav(!mobileNav)}
                 className="fa-solid fa-bars hamburger-hamb"
               ></i>
             </div>
